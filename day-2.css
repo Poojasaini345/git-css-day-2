@@ -1,0 +1,72 @@
+h3{
+    background-color: greenyellow;
+}
+p{
+    background-color: bisque;
+}
+
+
+div{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 8px solid salmon;
+    background-color: paleturquoise;
+}
+.content-box{
+    box-sizing: content-box;
+}
+.border-box{
+    box-sizing: border-box;
+}
+
+.animation-delay{
+   width: 100px;
+   height: 100px; 
+   background-color: royalblue;
+   position: relative;
+   animation: moving 5s infinite;
+   animation-delay: 3s;
+}
+
+@keyframes moving{
+    from{left:0px;}
+    to {left:200px;}
+}
+
+.grid-container{
+    display: grid;
+    height: 500px;
+    width: 600px;
+    grid-template-columns: auto auto auto;
+    grid-gap:15px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.item{
+    background-color: antiquewhite;
+    /* border: 2px solid palevioletred; */
+   border-radius: 20px;
+}
+.item2{
+    grid-column:1/3 ;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    background-color: #2196F3;
+    padding: 20px;
+    text-align: center;
+}
+.apple{
+    background-color: aliceblue;
+    border: #2196F3;
+    border-radius: 20px;
+}
+
+.apple2{
+   grid-row: 1/4; 
+}

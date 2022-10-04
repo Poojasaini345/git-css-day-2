@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day-2.css">
+</head>
+<body>
+    <h3>what is box sizing.</h3>
+   <p>Box-sizing property defines how the width and height gets applied on an element. 
+    Default value of box-sizing is content-box, in this case the actual width of the <br>
+    box will be equal to the border and padding and width of the box ( Actual width : width + border + padding ). 
+    In case when box-sizing is set to be border-box, then the actual width will be equal to the width of the box <br>
+    itself. Means if we will increase the padding or border of the box then it will not increase the width of the box.
+    a)    content-box (Default)
+    b)    border-box
+</p>
+
+  <div class="content-box">content-box</div><br>
+  <div class="border-box">border-box</div>
+
+  <h3>what is animation-delay?</h3>
+  <p>It is a sub-property of CSS animation. It defines how long the animation has to <br>
+     wait before starting.Using the animation-delay, you define the delay by <br>
+    specifying the number of seconds or milliseconds it should take before playing.</p>
+    
+    <div class="animation-delay"></div>
+
+    <h3>which property will you to merge cells horizontally in a grid?</h3>
+    <p>Grid-column-start and grid-column-end property can be used to merge cells <br>
+    vertically. It also has a shorthand ex-: grid-column:start/end. If you want to merge <br>
+    two elements in row then we will have to use grid-row property inside the child <br>
+    element. Remember these properties are applicable only child elements not to <br>
+    parent elements.</p>
+
+    <div class="grid-container">
+        <div class="item item2">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+
+    <h3>what is the difference between display none and visibility hidden?</h3>
+    <p>display:none;
+        <ul>
+            <li>The display:none property is used to hide elements without deleting them.it<br> does not take up any space.</li>
+            <li>In this case, the tag is removed from the page, which allows other elements <br>to fill in.</li>
+        </ul>
+        visibility:hidden;
+        <ul>
+            <li>The visibility: hidden property also hides an element, but affects the layout <br>ex:- it takes up the spsce.</li>
+            <li>The elemnts is hidden from view but not the page flow.</li>
+        </ul>
+    </p>
+
+    <h3>which property will you to marge cells horizontally in a grid?</h3>
+    <p>grid-row-start and grid-row-end property can be used to merge cells horizontally.It <br>
+    also has a shorthand ex:- grid-row-start/grid-row-end.</p>
+    <div class="grid-container2">
+        <div class="apple apple2">1</div>
+        <div class="apple">2</div>
+        <div class="apple">3</div>
+        <div class="apple">4</div>
+        <div class="apple">5</div>
+        <div class="apple">6</div>
+    </div>
+</body>
+</html>
